@@ -71,32 +71,46 @@ h3 {
   border: 1px solid #ddd;
   background-color: #f7f7f7;
 }
-
-.img {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  
+.fotos{
+    display: flex;
+    width: 1325px;
+    height: 320px;
 }
 
-.imagen {
-  opacity: 0.9;
-  width: 200px;
-  height: 200px;
-  margin: 0 10px;
-  object-fit: contain;
+.fotos img{ 
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    filter:brightness(95%);
+    transition: .7s ease;
 }
 
-@media (max-width: 768px) {
-  .imagen {
-    width: 100%;
-    height: auto;
+.fotos img:hover{
+    width: 130px;
+    opacity: 1;
+    filter: brightness(130%);
   }
-}
 
 body.pp {
-  background-image: url("../Img/fondo.avif");
+  background-image: url("../Img/fondo4.avif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
+
+body.ht {
+  background-color: hsl(0, 3%, 83%);
+}
+
+body.cs {
+  background-color: hsl(0, 3%, 83%);
+}
+ 
+body.js {
+  background-color: hsl(0, 3%, 83%);
+}
+
+body.gi {
+  background-color: hsl(0, 3%, 83%);
 }
