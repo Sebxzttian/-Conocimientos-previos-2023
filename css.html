@@ -19,5 +19,97 @@
         </nav>
       </header>
     <h1 class="h1">Conocimientos previos Css</h1>
+    <div class="img"> <img class="im" src="Img/CSSp.jpg" alt=""> </div>
+    <main>
+      <h2>Ques es Css</h2>
+
+      <p>Las hojas de estilo en cascada (CSS, cascading style sheets) permiten crear páginas web atractivas.</p>
+      <p>El CSS es un lenguaje basado en reglas: cada usuario define las reglas que especifican los grupos de estilos que van a aplicarse a elementos particulares o grupos de elementos de la página web.</p>
+
+      <h2>1. Selectores básicos:</h2>
+      <ul>
+          <li><strong>Por elemento:</strong> h1, p, a, etc.</li>
+          <li><strong> Por ID: </strong> #cabecera, #pie-de-pagina</li>
+          <li><strong>Por clase: </strong> .boton, .parrafo-destacado</li>
+          <li><strong>Por atributo: </strong> [href="https://www.ejemplo.com"], [type="button"]</li>
+          <li><strong>Combinaciones: </strong> h1#titulo .subtitulo, p.resaltado a</li>
+      </ul>
+      <h2>2. Selectores de descendientes:</h2>
+      <ul>
+          <li><strong>Seleccionan todos los elementos descendientes de un elemento específico:</strong> div p (selecciona todos los párrafos dentro de divs).</li>
+      </ul>
+      <h2>3. Selectores de hermanos:</h2>
+      <ul>
+          <li><strong>Seleccionan elementos que son "hermanos" (comparten el mismo padre) entre sí:</strong> h2 + p (selecciona el párrafo que sigue a un encabezado h2).</li>
+      </ul>
+      <h2>4. Selectores de pseudo-elementos::</h2>
+      <ul>
+          <li><strong>Añaden estilos a elementos específicos:</strong> ::first-child (primer hijo), ::after (inserta un elemento después), ::before (inserta un elemento antes).</li>
+      </ul>
+      <h2>5. Selectores de pseudo-clases:</h2>
+      <ul>
+          <li><strong>Añaden estilos a elementos en función de su estado o comportamiento:</strong> :hover (al pasar el cursor), :focus (con el foco), :active (al hacer clic).</li>
+      </ul>
+      <hr>
+      <h2>Unidades de medida relativas</h2>
+      <ul>
+          <li><strong>Porcentaje (%):</strong> Se basa en el tamaño del elemento padre.</li>
+          <li><strong>Em (em): </strong> Se basa en el tamaño de la fuente del elemento padre.</li>
+          <li><strong>Rem (rem):</strong> Se basa en el tamaño de la raíz del documento.</li>
+          <li><strong>Vw (vw): </strong> Se basa en el ancho visible de la ventana gráfica.</li>
+          <li><strong>Vh (vh):</strong> Se basa en la altura visible de la ventana gráfica.</li>
+      </ul>
+      <hr>
+      <h2>Fondos y bordes</h2>  
+      <h4>Fondos</h4>
+      <ul>
+          <li><strong>background-color:</strong> Color de fondo.</li>
+          <li><strong>background-image:</strong> Imagen de fondo.</li>
+          <li><strong>background-repeat: </strong> Repetición de la imagen (repeat, no-repeat, repeat-x, repeat-y).</li>
+          <li><strong>background-position:</strong> Posicionamiento de la imagen.</li>
+      </ul>
+      <h4>Bordes</h4>
+      <ul>
+          <li><strong>border-width:</strong> Grosor del borde.</li>
+          <li><strong>border-style: </strong> Estilo del borde (solid, dashed, dotted).</li>
+          <li><strong>border-color:</strong> Color del borde.</li>
+      </ul>
+      <hr>
+      <h2>Modelo de cajas</h2>  
+      <h4>Caja</h4>
+      <ul>
+          <li>Consta de contenido, padding, borde y margen.</li>
+          <li>Define el espacio que ocupa un elemento en el diseño.</li>
+      </ul>
+      <h4>Propiedades</h4>
+      <ul>
+          <li><strong>content:</strong> Define el contenido del elemento.</li>
+          <li><strong>padding: </strong> Agrega espacio entre el contenido y el borde.</li>
+          <li><strong>border:</strong> Define el borde del elemento.</li>
+          <li><strong>margin:</strong> Agrega espacio alrededor del elemento.</li>
+      </ul>
+      <hr>
+      <h2>Posicionamiento</h2>  
+      <ul>
+        <li><strong>static:</strong> Posicionamiento predeterminado.</li>
+        <li><strong>relative: </strong> Posiciona el elemento relativo a su posición normal.</li>
+        <li><strong>absolute:</strong> Posiciona el elemento de forma absoluta, sin relación con el flujo normal del documento.</li>
+        <li><strong>fixed:</strong> Posiciona el elemento de forma fija a la ventana gráfica.</li>
+      </ul>
+      <hr>
+      <h2>Display</h2>  
+      <ul>
+        <li><strong>Propiedad display:</strong> Define el tipo de comportamiento del elemento (bloque, en línea, ninguno, flexbox, grid).</li>
+        <li><strong>block: </strong> Elemento ocupa un bloque completo.</li>
+        <li><strong>inline:</strong> Elemento se comporta como un carácter en línea.</li>
+        <li><strong>none:</strong> Elemento no se muestra.</li>
+      </ul>
+      <hr>
+      <h2>Responsive Design "Media Queries"</h2>  
+      <ul>
+        <li>Permiten adaptar el diseño de la página a diferentes tamaños de pantalla.</li>
+        <li>Se definen con puntos de ruptura (@media).</li>
+      </ul>
+    </main>
 </body>
 </html>
